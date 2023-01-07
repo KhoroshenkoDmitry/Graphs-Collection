@@ -1,4 +1,4 @@
-# Graph-collection
+# Graphs-collection
 It's a small pet-project that I created to try to make an MVC-app. 
 ## About architecture
 So, as I said, it's an MVC-app. There are three general folders: 'MVC', 'interfaces' and 'main'.    
