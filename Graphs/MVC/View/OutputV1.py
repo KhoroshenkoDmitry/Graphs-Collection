@@ -23,8 +23,8 @@ class OutputV1(IOutput):
         \ngraph_update_delete_edge [name of graph] [first vertex] [second vertex] - delete an edge between first and second vertexes \
         \ngraph_update_add_vertex [name of graph] [vertex] - create a new vertex \
         \ngraph_update_delete_vertex [name of graph] [vertex] - delete the vertex \
-        \ngraph_update_is_in_graph [name of graph] [vertex] - check if vertex named [vertex] exist in graph \
-        \nshow_graph [name_of_graph] - show the list of graph \
+        \ngraph_update_is_in_graph [name of graph] [vertex] - check if vertex named [vertex] exist in the graph \
+        \nshow_graph [name_of_graph] - show the list of the graph \
         \nhelp - show help \
         \nexit - exit the program'
         self.output(string)
