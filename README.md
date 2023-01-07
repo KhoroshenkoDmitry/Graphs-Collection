@@ -23,7 +23,7 @@ graph_update_add_edge [name of graph] [first vertex] [second vertex] - create a 
 graph_update_delete_edge [name of graph] [first vertex] [second vertex] - delete an edge between first and second vertexes  
 graph_update_add_vertex [name of graph] [vertex] - create a new vertex  
 graph_update_delete_vertex [name of graph] [vertex] - delete the vertex  
-graph_update_is_in_graph [name of graph] [vertex] - check if vertex named [vertex] exist in graph  
-show_graph [name_of_graph] - show the list of graph  
+graph_update_is_in_graph [name of graph] [vertex] - check if vertex named [vertex] exist in the graph  
+show_graph [name_of_graph] - show the list of the graph
 help - show help  
 exit - exit the program  
