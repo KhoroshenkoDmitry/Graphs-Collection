@@ -7,7 +7,7 @@ The 'MVC' folder includes a 'Model' folder, a 'View' folder and a 'Controller' f
 
 The 'Model' folder contains two interfaces: 'IGraph' and 'IModel'. Realizations of the first one are 'DirectedGraph' & 'UndirectedGraph', realization of the second one is 'Model'. 'GraphFabric' is a simple fabric of graphs; 'GraphCollection' is a collection of graphs.   
 The 'View' folder contains three interfaces: 'IInput', 'IOutput' and 'IView'. It contains realization of them too: InputV1, OutputV1 and View.   
-The 'Controller' folder contains fourth interfaces: 'IRules', 'INormalizator', 'IValidator' and 'IController'. Realizations of them are RulesV1, NormalizatorV1, ValidatorV1 and Controller. RulesV1 is a simple wrapper for a list that includes implemented commands; ValidatorV1 uses RulesV1 and makes sure that command inputted by user is implemented in the app; NormalizatorV1 forces command written by user to be formatted as required by the app.  
+The 'Controller' folder contains four interfaces: 'IRules', 'INormalizator', 'IValidator' and 'IController'. Realizations of them are RulesV1, NormalizatorV1, ValidatorV1 and Controller. RulesV1 is a simple wrapper for a list that includes implemented commands; ValidatorV1 uses RulesV1 and makes sure that command inputted by user is implemented in the app; NormalizatorV1 forces command written by user to be formatted as required by the app.  
 
 The 'interfaces' folder includes two interfaces: 'IObserver' and 'IObservable'. It's a simple realization of observer pattern. It also includes 'Interface' module that combines that two interfaces.   
 
