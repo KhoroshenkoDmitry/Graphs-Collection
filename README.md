@@ -11,7 +11,7 @@ The 'Controller' folder contains four interfaces: 'IRules', 'INormalizator', 'IV
 
 The 'interfaces' folder includes two interfaces: 'IObserver' and 'IObservable'. It's a simple realization of observer pattern. It also includes 'Interface' module that combines that two interfaces.   
 
-The 'main' folder contains 'MVC' module that includes MVC to the 'main.py'.   
+The 'main' folder contains 'MVC' module that includes MVC to the 'main.py' and 'main.py'.   
 
 ## What can program do?
 To be honest, nothing really special. It's a training project. But there are some commands:  
